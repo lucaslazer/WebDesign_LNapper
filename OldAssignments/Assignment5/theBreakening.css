@@ -1,0 +1,86 @@
+body {
+  background-color: #231423;
+  body {
+    color: #9abfc8;
+  }
+  ol {
+    color: #e6c50f;
+    font-family: Helvetica;
+  }
+  h1 {
+    color: #b48b19;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 60px;
+  }
+  h2 {
+    color: #bfeeef;
+    font-family: Helvetica;
+  }
+  h3 {
+    color: #d7eeee;
+    font-family: Helvetica;
+    padding-left: 20px;
+  }
+  h4 {
+    color: #bfeeef;
+    font-family: Helvetica;
+  }
+  h5 {
+    color: #bfeeef;
+    font-family: Helvetica;
+  }
+  h6 {
+    color: #e6c50f;
+    font-family: Helvetica;
+  }
+  tr {
+    color: #e6c50f;
+    font-family: Helvetica;
+  }
+  dt {
+    color: #e6c50f;
+    font-family: Helvetica;
+  }
+  dd {
+    color: #9abfc8;
+    font-family: Helvetica;
+  }
+  d3 {
+    color: #e6c50f;
+    font-family: Helvetica;
+  }
+  d4 {
+    color: #e6c50f;
+    font-family: Helvetica;
+  }
+  /* unvisited link */
+  a:link {
+    color: #9abfc8;
+  }
+
+  /* visited link */
+  a:visited {
+    color: #69eeff;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: hotPink;
+  }
+
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+}
+th,
+td {
+  border: 20px solid #9abfc8;
+  border-radius: 35px;
+  border-style: double;
+}
+th,
+td {
+  background-color: #91c08f2a;
+}

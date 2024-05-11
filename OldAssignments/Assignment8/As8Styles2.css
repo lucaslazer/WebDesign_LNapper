@@ -1,0 +1,244 @@
+body {
+  background-image: url("https://97n7r2.csb.app/OldAssignments/Assignment7/images/android-chrome-192x192.png");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+  background-position: 50%;
+  /*body paramaters from assinment*/
+  width: 960px;
+  margin: 0 auto;
+  background-color: #9bcdff;
+  font-size: 28px;
+  font-family: "Micro 5 Charted", sans-serif;
+  color: rgb(197, 89, 35);
+}
+
+header[role="banner"] {
+  margin-top: 20px;
+  height: 175px;
+  border-radius: 30px;
+  background-color: rgba(255, 166, 0, 0.737);
+  border: 6px double rgb(197, 89, 35);
+}
+
+/*default classes */
+h1 {
+  /*Changed font and font color. */
+  font-size: 65pt;
+  text-align: center; /*Font modification and centering*/
+  font-style: normal;
+  color: rgb(197, 89, 35);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  margin: 5px 0 0 0;
+}
+
+p {
+  font-family: "Nabla", monospace;
+}
+
+nav {
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav ul {
+  text-align: center;
+  font-family: "Nabla", monospace;
+  font-size: 18px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  height: 20px;
+  width: 195px;
+  margin: 0 45px 0 5px;
+  white-space: nowrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: #3399ccc1;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 6px double rgb(197, 89, 35);
+}
+/*more nave buttons */
+nav1 {
+  margin: 0 auto;
+  width: 300px;
+}
+
+nav1 ul {
+  text-align: center;
+  font-family: "Nabla", monospace;
+  font-size: 18px;
+  list-style: none;
+}
+
+nav1 ul li {
+  display: inline-flex;
+  height: 50px;
+  width: 195px;
+  padding: 5px 55px;
+  white-space: nowrap;
+}
+
+nav1 ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background: rgb(35, 197, 89);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 6px double rgb(197, 89, 35);
+}
+
+/*Created a unique element ids for the top nave button - rotation transforms. */
+#hov1:hover {
+  transform: rotate(20deg);
+  transition-timing-function: ease-in-out;
+  white-space: nowrap;
+}
+
+#hov2:hover {
+  transform: rotate(-20deg);
+  white-space: nowrap;
+}
+
+#hov3:hover {
+  transform: rotate(30deg);
+  white-space: nowrap;
+}
+/*created a class element to allow for a hover transition*/
+.trans:hover {
+  height: 840px;
+  width: 940px;
+  background: rgb(197, 89, 35);
+  border-radius: 30px;
+  border: 6px dotted rgba(255, 166, 0);
+  transition-delay: 2s;
+  transition-timing-function: ease-in;
+  transition: width 2s, height 4s;
+}
+.trans2 {
+  color: rgb(197, 35, 143);
+}
+
+.trans2:hover {
+  height: 50px;
+  mix-blend-mode: lighten;
+  transform: scale(1.6, 1.6);
+  transition-timing-function: ease-in;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+article {
+  position: relative;
+  top: 35px;
+  background-color: rgba(255, 166, 0, 0.737);
+  border: 6px double rgb(197, 89, 35);
+  border-radius: 30px;
+  font-family: "Micro 5 Charted", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  height: 840px;
+  width: 600px;
+}
+
+article h2 {
+  text-align: center; /*Font modification and centering*/
+  font-size: 27pt;
+  color: #9bcdff;
+  line-height: 14px;
+  margin: 20px 0 0 0;
+  padding: 10px 20px;
+}
+
+article p {
+  color: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: difference;
+  line-height: 24px;
+  padding: 2px 20px;
+}
+
+section {
+  background-color: #3399ccc1;
+  border: 6px double rgb(197, 89, 35);
+  border-radius: 30px;
+  padding: 0px;
+  margin: 60px 10px;
+}
+
+section h3 {
+  text-align: center; /*Font modification and centering*/
+  font-family: "Micro 5 Charted", sans-serif;
+  color: rgb(234, 231, 166);
+  font-size: 32px;
+  line-height: 14px;
+  margin: 10px 0 0 0;
+  padding: 20px 5px 0 20px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section p {
+  color: #ffffff;
+  mix-blend-mode: normal;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+aside {
+  position: relative;
+  top: -815px;
+  left: 640px;
+  border-radius: 30px;
+  background-color: rgba(255, 166, 0, 0.737);
+  border: 6px double rgb(197, 89, 35);
+  height: 840px;
+  width: 302px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+aside h3 {
+  text-align: center; /*Font modification and centering*/
+  color: #3399ccc1;
+  mix-blend-mode: color-dodge;
+  font-size: 24px;
+  line-height: 18px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 20px;
+}
+
+aside p {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: hard-light;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 0 20px;
+}
+footer {
+  text-align: center; /*Font modification and centering*/
+  font-family: "Nabla", monospace;
+  font-size: 27pt;
+  color: #9bcdff;
+  line-height: 14px;
+  margin-bottom: 20px;
+  height: 105px;
+  border-radius: 30px;
+  background-color: #cc3399;
+  border: 6px double rgb(197, 89, 35);
+}
+
+.page1 {
+  background-color: blue; /* Change this color to the desired background color for page 1 */
+}
+
+.page2 {
+  background-color: #3399cc; /* Change this color to the desired background color for page 2 */
+}
+
+.page3 {
+  background-color: #4195d1; /* Change this color to the desired background color for page 3 */
+}

@@ -1,0 +1,274 @@
+#Title {
+  padding-left: 3px;
+}
+/*created a class element to allow for a hover transition*/
+#trans:hover {
+  background: rgb(118, 110, 131);
+  transition-delay: 2s;
+  color: rgb(197, 89, 35);
+  transition-timing-function: ease-in;
+  transition: width 2s, height 4s;
+}
+header[role="banner"] {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("https://97n7r2.csb.app/OldAssignments/Assignment9/images/slice1.png");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: 50%;
+  margin: 0 auto;
+  font-size: 28px; /* font paramaters */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font: 26px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans,
+    sans-serif;
+  color: rgb(118, 110, 131);
+}
+nav {
+  position: relative;
+  top: -120px;
+  left: 520px;
+}
+
+nav ul {
+  text-align: center;
+  font-family: "Bungee Inline", sans-serif;
+  font-size: 18px; /* font paramaters */
+}
+
+nav ul li {
+  white-space: nowrap;
+  padding: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background: url("https://97n7r2.csb.app/OldAssignments/Assignment9/images/960Ex2.gif")
+    no-repeat right top;
+  background-size: 100%;
+  background-blend-mode: color-burn;
+  padding: 2px 2px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  border: 6px dotted rgb(118, 110, 131);
+}
+
+h1 {
+  font-size: 60px; /* font paramaters */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Bungee Inline", sans-serif;
+  margin-left: 10px;
+  color: rgb(118, 110, 131);
+}
+
+h2 {
+  font-size: 32px; /* font paramaters */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Nabla", sans-serif;
+  color: rgb(118, 110, 131);
+}
+
+.page1 {
+  /* This is for a desired background color for page 1 */
+  background-color: rgb(88, 92, 82);
+}
+
+centeral {
+  mix-blend-mode: color-burn;
+  position: relative;
+  top: -20px;
+  left: 15px;
+}
+centeral1 {
+  margin: 30px;
+  mix-blend-mode: color-dodge;
+  position: relative;
+}
+
+#Home, /* Div ids for the links in the header */
+#About,
+#Work {
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+#Home {
+  width: 60px;
+}
+
+#Title h1:hover,
+#Title h1:focus {
+  -webkit-transform: rotate(19deg) translate(0px, -30px);
+  -moz-transform: rotate(19deg) translate(0px, -30px);
+  transform: rotate(19deg) translate(0px, -30px);
+
+  -webkit-transition: transform 0.4s ease-in-out;
+  -moz-transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+
+  -webkit-animation: ;
+  -webkit-box-shadow: 7px 7px 15px 2px rgb(118, 110, 131);
+  -moz-box-shadow: 7px 7px 15px 2px rgb(118, 110, 131);
+  box-shadow: 7px 7px 15px 2px rgb(118, 110, 131);
+}
+
+#About {
+  width: 60px;
+  padding-left: 20px;
+}
+
+#About p:hover,
+#About p:focus {
+  -webkit-transform: scale(1.1) translate(0px, -3px);
+  -moz-transform: scale(1.1) translate(0px, -3px);
+  transform: scale(1.1) translate(0px, -3px);
+
+  -webkit-transition: transform 0.4s ease-in-out;
+  -moz-transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+
+  -webkit-box-shadow: 7px 7px 15px 2px rgba(116, 181, 178, 0.6);
+  -moz-box-shadow: 7px 7px 15px 2px rgba(116, 181, 178, 0.6);
+  box-shadow: 7px 7px 15px 2px rgba(116, 181, 178, 0.6);
+}
+
+#Work {
+  width: 60px;
+  padding-left: 20px;
+}
+
+#Work p:hover,
+#Work p:focus {
+  -webkit-transform: scale(1.1) translate(0px, -3px);
+  -moz-transform: scale(1.1) translate(0px, -3px);
+  transform: scale(1.1) translate(0px, -3px);
+
+  -webkit-transition: transform 0.4s ease-in-out;
+  -moz-transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+
+  -webkit-box-shadow: 7px 7px 15px 2px rgba(116, 181, 178, 0.6);
+  -moz-box-shadow: 7px 7px 15px 2px rgba(116, 181, 178, 0.6);
+  box-shadow: 7px 7px 15px 2px rgba(116, 181, 178, 0.6);
+}
+container {
+  padding: 0 10px;
+}
+article {
+  background-color: rgb(88, 92, 82);
+  border: 6px double rgb(197, 89, 35);
+  border-radius: 30px;
+  font-family: "Bungee Inline", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  height: 1400px;
+  width: 620px;
+}
+
+article h2 {
+  text-align: center; /*Font modification and centering*/
+  font-family: "Bungee Inline", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 17pt;
+  color: #9bcdff;
+  margin: 40px 0 20px 0;
+  padding: 10px 20px;
+}
+
+article p {
+  color: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: difference;
+  margin: 20px 0 0 0;
+}
+
+section {
+  background-color: rgb(88, 92, 82);
+  border: 6px double rgb(197, 89, 35);
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 40px;
+  height: 500px;
+  width: 1400px;
+}
+
+section h3 {
+  text-align: center; /*Font modification and centering*/
+  font-family: "Bungee Inline", sans-serif;
+  color: rgb(234, 231, 166);
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  padding: 10px 20px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section p {
+  mix-blend-mode: luminosity;
+  font-style: italic;
+  line-height: 24px;
+}
+
+aside {
+  position: relative;
+  top: -520px;
+  left: 10px;
+  border-radius: 30px;
+  background-color: rgb(118, 110, 131);
+  border: 6px double rgb(197, 89, 35);
+  height: 1920px;
+  width: 60px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+aside h3 {
+  text-align: center; /*Font modification and centering*/
+  font-family: "Bungee Inline", sans-serif;
+  color: rgb(197, 89, 35);
+  mix-blend-mode: color-dodge;
+  font-size: 24px;
+  line-height: 38px;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 20px;
+}
+
+aside p {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  line-height: 32px;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 20px;
+}
+footer {
+  color: #9bcdff;
+  height: 120px;
+  border-radius: 30px;
+  background-color: #585c52;
+  border: 6px double rgb(197, 89, 35);
+  position: sticky;
+  top: -520px;
+  left: -4110px;
+}
+footer p {
+  text-align: center; /*Font modification and centering*/
+  font-family: "Bungee Inline", sans-serif;
+  margin: 20px 20px 0px 0px;
+  color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: hard-light;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 0 20px;
+}
+
+#page1 {
+  background-color: #585c52; /* Change this color to the desired background color for page 1 */
+}
+
+#page2 {
+  background-color: #585c52; /* Change this color to the desired background color for page 2 */
+}
+
+#page3 {
+  background-color: #766e83; /* Change this color to the desired background color for page 3 */
+}

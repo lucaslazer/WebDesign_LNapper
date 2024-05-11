@@ -1,0 +1,149 @@
+body {
+  /*Colored the background of the body. spaced the padding on the whole page*/
+  background: seaGreen;
+  padding-left: 10px;
+}
+div#externalBG1 {
+  background-color: violet;
+}
+div#externalBG2 {
+  background-color: yellow;
+}
+div#externalBG3 {
+  background-color: darkgreen;
+}
+h1.headline {
+  /*Imported a strange font from google fonts*/
+  /*Tried to center the header*/
+  clear: both;
+  border: 10px black solid;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  color: blue;
+  background-color: black;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
+  font-size: 50px;
+}
+h4 {
+  /* this is to test in line clearline with span tags and itallics */
+  border-left: 40px solid orange;
+  border-right: 40px solid orange;
+  border-radius: 10px;
+  text-align: center;
+}
+p {
+  /* paragrpah text style is now typewriter serrifed font */
+  font-family: "Wellfleet", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+p1 {
+  /* paragrpah text style is now serrifed font */
+  font-family: "Courier New", Lucida Console;
+  color: green;
+  margin-left: 10px;
+}
+
+div#afters {
+  /* Created another div id to recolor the backgound and text for a "side"*/
+  background-color: orange;
+  color: antiquewhite;
+  width: 870px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+div.mains {
+  /* expemimented with how far a linked font family can look*/
+  background-color: antiquewhite;
+  width: 870px;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-family: "Wellfleet", monospace;
+}
+div.sides {
+  /*  An inline span tag is for all the sides. It changes the background to white*/
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: "Wellfleet", monospace;
+  background-color: white;
+  color: orange;
+  border: black 5px solid;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+  margin: 17px;
+  width: 400px;
+}
+div#todayspecial {
+  /* Created a div id to recolor the backround within the div style "sides" tag */
+  background-color: papayawhip;
+  border: orange 10px double;
+}
+div#yesterspecial {
+  /* Created another div id to recolor the backround within the div style "sides" tag */
+  background-color: orange;
+  color: antiquewhite;
+}
+span.lake {
+  /* created a span class to recolor part of the text in "Plain grits"*/
+  font-size: 90%; /*  Created a span c */
+  color: rgb(86, 102, 148);
+}
+.clearfix {
+  /* This is to test the clearline with spans I do not think this is doing anything*/
+  overflow: auto;
+}
+img.fleur {
+  /* This is an experiment with external positioning of an image*/
+  clear: both;
+  text-align: center;
+}
+.polaroid {
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  img {
+    border-radius: 10%;
+  }
+  background-color: goldenrod;
+  border-radius: 10%;
+  border: goldenrod;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.polaroidSides {
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  img {
+    border-radius: 10%;
+  }
+  background-color: goldenrod;
+  border-radius: 10%;
+  border: goldenrod;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.container {
+  text-align: center;
+}
+.center {
+  position: relative;
+  top: 100%;
+  left: 6%;
+  font-family: "Wellfleet", monospace;
+  color: black;
+  text-shadow: 3px 3px 2px goldenrod;
+  font-size: 38px;
+  transform: translate(-1%, 50%);
+}

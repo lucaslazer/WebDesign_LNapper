@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://images.hdqwalls.com/wallpapers/black-crystals-texture-4k-mz.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    body {
+      color: #9abfc8;
+    }
+    ol {
+      color: #e6c50f;
+      font-family: Helvetica;
+    }
+    h1 {
+      color: #d1bb7e;
+      font-family: impact;
+      text-align: center;
+      font-size: 60px;
+    }
+  th,
+  td {
+    border: 20px solid #9abfc8;
+    border-radius: 35px;
+    border-style: double;
+  }
+  th,
+  td {
+    background-color: #91c08f2a;
+  }
+  

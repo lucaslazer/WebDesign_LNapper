@@ -1,0 +1,154 @@
+body {
+  background-image: url("crayss.jpg");
+  background-color: #cccccc;
+  /*page padding is thiq*/
+  padding: 3%;
+}
+h1.headline {
+  /*Imported a strange font from google fonts*/
+  /*Tried to center the header*/
+  clear: both;
+  border: 10px black solid;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+  color: blue;
+  background-color: black;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
+  font-size: 80px;
+}
+/*default classes */
+h1 {
+  /*Changed font and font color. */
+  font-family: "Micro 5 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center; /*Font modification and centering*/
+  color: green;
+}
+
+h2 {
+  /*Using H2 on Page1. Changed font. */
+  font-family: "Wellfleet", monospace;
+  text-align: center; /*Font modification and centering*/
+  color: olivedrab;
+}
+h2:hover {
+  /*Hover feature enabled on H2 box. yellow dropshadow*/
+  font-size: 200%;
+  font-family: "Wellfleet", monospace;
+  color: brown;
+  background-color: yellow;
+  border: 12px solid rgba(246, 255, 0, 0.473);
+  width: 138px;
+  height: 138px;
+  border-radius: 50px;
+}
+p {
+  color: chartreuse; /*Using p on Page1. Changed font color. */
+  text-align: center; /*Font modification and centering*/
+}
+/*class ids*/
+#seagreen {
+  padding: 25px; /*div class id to ovveride the container background colors. */
+  background-color: hwb(146 18% 45% / 0.348);
+  background-image: url("https://97n7r2.csb.app/OldAssignments/A3/sparklie.gif"); /*bg gif image overlay on top. */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150% 10000%; /*Modded the scale to give a rain effect. */
+}
+#overlay {
+  background-color: violet; /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/*div classes. */
+.container {
+  /*container for the some of the other div classes. */
+  width: 550px;
+  height: 550px;
+  border: 2px solid black;
+  border-radius: 160px;
+  margin: 150px auto;
+  position: relative;
+}
+.box {
+  /* color box div classes are nested within this container. */
+  width: 150px;
+  height: 150px;
+  /*added a border radius.*/
+  border-radius: 50px;
+}
+
+/*div color classes are nested within box. */
+.darkorange {
+  background-color: rgba(145, 84, 9, 0.569);
+  position: absolute; /*experementing with position. static does nothing?*/
+}
+.orange {
+  background-color: rgba(255, 166, 0, 0.737);
+  position: sticky; /*experementing with position. sticky it moved after scrolling and hitting the top of the page*/
+  left: 50px;
+  top: 20px;
+  text-align: center; /*Font modification and centering*/
+  font-family: "Nabla", system-ui;
+  font-size: 32pt;
+}
+.purple {
+  background-color: rgba(
+    128,
+    0,
+    128,
+    0.278
+  ); /*experementing with no position set as a control*/
+}
+.peachpuff {
+  background-color: rgba(255, 218, 185, 0.591);
+  position: relative; /*experementing with position. relative is to its original postion!*/
+  float: right; /*experementing with floating a cube to the right*/
+  border: 2px black solid;
+}
+.yellow {
+  background-color: rgba(255, 255, 0, 0.292);
+  position: absolute; /*experementing with position. absolute stays moves it outside of container its relative to body*/
+  z-index: 2; /*experementing with overlapping position. z-index moved the box behind all other elements. default is 0*/
+}
+.violet {
+  background-color: violet;
+  position: fixed; /*experementing with position. fixed stays and does not scroll when the page moves moves it outside*/
+  left: 40px;
+  bottom: 40px;
+  text-align: center;
+  font-family: "Nabla", system-ui;
+  font-size: 32pt;
+}
+.clearfix {
+  /*experementing with clearfix*/
+  overflow: auto;
+}
+.crayImage {
+  float: right;
+}
+/* Defined div classes for each color in the BODY of the pages */
+.page1 {
+  background-color: #ffcccc; /* Change this color to the desired background color for page 1 */
+}
+.page2 {
+  background-color: #ccffcc; /* Change this color to the desired background color for page 2 */
+}
+.page3 {
+  background-color: #ccccff; /* Change this color to the desired background color for page 3 */
+}
+.sketchfab-embed-wrapper {
+  position: sticky;
+  margin-left: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 0, 0, 0.272);
+  text-align: center;
+  background-image: url("https://sketchfab.com/models/97b9548c3d1747449d3cd63b80a7db9a/embed");
+  background-position: 50%;
+}
